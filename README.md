@@ -5,12 +5,13 @@ HOW TO SETUP AND USE IT
 
 Requirements :
 1. Webcam
-2. MATLAB with USB webcam hardware support package
-3. Microsoft Visual Studio
+2. MATLAB 2015RB with USB webcam hardware support package
+3. Microsoft Visual Studio 2010
 
 Procedure :
 Clone the repo to a location.
-Open the Visual Studio code and set it up to 64 bit or 32 bit whatever matches your MATLAB platform. By default my project is on 64 bit.
+Open the Visual Studio 2010 code and set it up to 64 bit or 32 bit whatever matches your MATLAB platform. By default my project is on 64 bit.
+
 Now open the Property Page and :
 1. In the VC++ directories, add MATLAB bin folder path to executable directories.
 2. In the VC++ directories, add MATLAB extern\include folder path to include directories.
@@ -26,7 +27,5 @@ Look for the comment in the VS code saying about "cd" command and edit there the
 On running the progrma might give error of GWL_USERDATA undefined because we changed to 64 bit. (If you did).
 To debug, double click on both errors and edit it with GWLP_USERDATA
 Run again.
-
-Wear a bright red and good blue band on your finger covering almost three quarters of your finger!
 
 Check Out my blog for each modules' explanation : http://codedating.blogspot.in/
