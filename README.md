@@ -1,4 +1,4 @@
-# PingPong-with-finger-tracking-
+# fing-Fong
 A PingPong game developed on C and integrated with MATLAB using Engine functions to control the bats using finger movements.
 
 HOW TO SETUP AND USE IT
