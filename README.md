@@ -5,7 +5,7 @@ HOW TO SETUP AND USE IT
 
 Requirements :
 1. Webcam
-2. MATLAB 2015RB with USB webcam hardware support package
+2. MATLAB 2015Ra with USB webcam hardware support package
 3. Microsoft Visual Studio 2010
 
 Procedure :
