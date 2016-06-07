@@ -1,5 +1,5 @@
 function varargout = GUI(varargin)
-global config value;
+global config;
 config = true;
 % GUI MATLAB code for GUI.fig
 %      GUI, by itself, creates a new GUI or raises the existing
@@ -310,7 +310,7 @@ end
 % --- Executes on slider movement.
 function slider16_Callback(hObject, eventdata, handles)
 % hObject    handle to slider16 (see GCBO)
-global upperArea;
+global upperArea player;
 upperArea(player) = get(handles.slider16,'Value');
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
